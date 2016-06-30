@@ -24,7 +24,7 @@ var uglify = new webpack.optimize.UglifyJsPlugin({minimize: true})
 module.exports = {
 //  context: __dirname + '/app/assets',
   entry: {
-    main: 'javascripts/_main_includes.js',
+    main: 'javascripts/application.js',
   },
   output: {
     filename: PROD ? '[name].[hash].min.js' : '[name].[hash].js',
