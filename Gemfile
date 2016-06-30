@@ -24,6 +24,10 @@ gem 'http_accept_language'
 gem 'i18n-active_record',
     :git => 'git://github.com/svenfuchs/i18n-active_record.git',
     :require => 'i18n/active_record'
+
+
+gem 'dragonfly'
+gem 'dragonfly-activerecord'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
